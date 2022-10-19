@@ -5,6 +5,9 @@ body {
 img {
     width: 500px;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1,
@@ -12,16 +15,16 @@ h2 {
     font-weight: 600;
     color: #3C2317;
     background-color: #B4CDE6;
+    text-align: center;
 }
 
 .intro {
     font-weight: 200;
-    color: #628E90;
-    background-color: #3C2317;
 }
 
 .list,
-.description {
+.description,
+.intro {
     color: #628E90;
     background-color: #F5EFE6;
 }
